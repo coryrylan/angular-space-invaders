@@ -1,5 +1,5 @@
-import { Utilities } from './engine/utilities';
-import { ViewPort, GameObject } from './engine/interfaces';
+import { Utilities } from './../engine/utilities';
+import { ViewPort, GameObject } from './../engine/interfaces';
 
 export class Asteroid implements GameObject {
   img: HTMLImageElement;

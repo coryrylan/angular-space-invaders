@@ -1,5 +1,5 @@
+import { ViewPort, GameObject } from './../engine/interfaces';
 import { LaserCollection } from './laser-collection';
-import { ViewPort, GameObject } from './engine/interfaces';
 
 export class Ship implements GameObject {
   lasers: LaserCollection;

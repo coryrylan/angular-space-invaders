@@ -1,5 +1,5 @@
 import { Asteroid } from './asteroid';
-import { ViewPort } from './engine/interfaces';
+import { ViewPort } from './../engine/interfaces';
 
 export class AsteroidCollection {
   list: Asteroid[];

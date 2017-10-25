@@ -1,4 +1,4 @@
-import { GameObject } from './engine/interfaces';
+import { GameObject } from './../engine/interfaces';
 import { Howl } from 'howler';
 
 export class Laser implements GameObject {
@@ -36,6 +36,6 @@ export class Laser implements GameObject {
   }
 
   playSound() {
-    this.sound.play();
+    // this.sound.play();
   }
 }
